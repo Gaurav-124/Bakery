@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Warm Bakery Colors */
+  --color-bakery-cream: #FDFBF7;
+  --color-bakery-gold: #C09858;
+  --color-bakery-dark: #1E1A17;
+  --color-bakery-clay: #7A5B43;
+}
+
+body {
+  background-color: var(--color-bakery-cream);
+  color: var(--color-bakery-dark);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar to match bakery aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8E2D9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C09858;
+}
