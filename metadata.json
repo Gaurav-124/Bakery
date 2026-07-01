@@ -1,0 +1,6 @@
+{
+  "name": "Artisanal Bakery Store",
+  "description": "A clean, modern, and highly interactive bakery store website featuring an interactive custom cake builder, an animated product catalog, a shopping cart, and a simulated oven order-tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
